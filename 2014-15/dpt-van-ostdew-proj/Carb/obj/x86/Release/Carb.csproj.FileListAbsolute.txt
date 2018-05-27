@@ -1,0 +1,24 @@
+C:\Users\uzivatel\documents\visual studio 2010\Projects\Carb\Carb\obj\x86\Release\Carb.Form1.resources
+C:\Users\uzivatel\documents\visual studio 2010\Projects\Carb\Carb\obj\x86\Release\Carb.Properties.Resources.resources
+C:\Users\uzivatel\documents\visual studio 2010\Projects\Carb\Carb\obj\x86\Release\Carb.csproj.GenerateResource.Cache
+C:\Users\uzivatel\documents\visual studio 2010\Projects\Carb\Carb\bin\Release\Carb.exe
+C:\Users\uzivatel\documents\visual studio 2010\Projects\Carb\Carb\bin\Release\Carb.pdb
+C:\Users\uzivatel\documents\visual studio 2010\Projects\Carb\Carb\obj\x86\Release\Carb.exe
+C:\Users\uzivatel\documents\visual studio 2010\Projects\Carb\Carb\obj\x86\Release\Carb.pdb
+C:\Users\uzivatel\Downloads\Carb\Carb\bin\Release\Carb.exe
+C:\Users\uzivatel\Downloads\Carb\Carb\bin\Release\Carb.pdb
+C:\Users\uzivatel\Downloads\Carb\Carb\obj\x86\Release\Carb.Form1.resources
+C:\Users\uzivatel\Downloads\Carb\Carb\obj\x86\Release\Carb.Properties.Resources.resources
+C:\Users\uzivatel\Downloads\Carb\Carb\obj\x86\Release\Carb.csproj.GenerateResource.Cache
+C:\Users\uzivatel\Downloads\Carb\Carb\obj\x86\Release\Carb.exe
+C:\Users\uzivatel\Downloads\Carb\Carb\obj\x86\Release\Carb.pdb
+C:\Users\uzivatel\Downloads\Carb\Carb\obj\x86\Release\Carb.csprojResolveAssemblyReference.cache
+C:\Users\uzivatel\Downloads\Carb\Carb\obj\x86\Release\Carb.HelpForm.resources
+C:\Users\uzivatel\Documents\_toGit\Csharp\Carburize\Carb\bin\Release\Carb.exe
+C:\Users\uzivatel\Documents\_toGit\Csharp\Carburize\Carb\bin\Release\Carb.pdb
+C:\Users\uzivatel\Documents\_toGit\Csharp\Carburize\Carb\obj\x86\Release\Carb.Form1.resources
+C:\Users\uzivatel\Documents\_toGit\Csharp\Carburize\Carb\obj\x86\Release\Carb.HelpForm.resources
+C:\Users\uzivatel\Documents\_toGit\Csharp\Carburize\Carb\obj\x86\Release\Carb.Properties.Resources.resources
+C:\Users\uzivatel\Documents\_toGit\Csharp\Carburize\Carb\obj\x86\Release\Carb.csproj.GenerateResource.Cache
+C:\Users\uzivatel\Documents\_toGit\Csharp\Carburize\Carb\obj\x86\Release\Carb.exe
+C:\Users\uzivatel\Documents\_toGit\Csharp\Carburize\Carb\obj\x86\Release\Carb.pdb

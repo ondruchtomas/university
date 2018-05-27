@@ -1,0 +1,19 @@
+C:\Users\uzivatel\documents\visual studio 2010\Projects\Carb\Carb\bin\Debug\Carb.exe
+C:\Users\uzivatel\documents\visual studio 2010\Projects\Carb\Carb\bin\Debug\Carb.pdb
+C:\Users\uzivatel\documents\visual studio 2010\Projects\Carb\Carb\obj\x86\Debug\Carb.Form1.resources
+C:\Users\uzivatel\documents\visual studio 2010\Projects\Carb\Carb\obj\x86\Debug\Carb.Properties.Resources.resources
+C:\Users\uzivatel\documents\visual studio 2010\Projects\Carb\Carb\obj\x86\Debug\Carb.csproj.GenerateResource.Cache
+C:\Users\uzivatel\documents\visual studio 2010\Projects\Carb\Carb\obj\x86\Debug\Carb.exe
+C:\Users\uzivatel\documents\visual studio 2010\Projects\Carb\Carb\obj\x86\Debug\Carb.pdb
+C:\Users\uzivatel\documents\visual studio 2010\Projects\Carb\Carb\obj\x86\Debug\Carb.csprojResolveAssemblyReference.cache
+C:\Users\uzivatel\Downloads\Carb\Carb\obj\x86\Debug\Carb.exe
+C:\Users\uzivatel\Downloads\Carb\Carb\obj\x86\Debug\Carb.pdb
+C:\Users\uzivatel\Downloads\Carb\Carb\obj\x86\Debug\Carb.csprojResolveAssemblyReference.cache
+C:\Users\uzivatel\Downloads\Carb\Carb\obj\x86\Debug\Carb.Form1.resources
+C:\Users\uzivatel\Downloads\Carb\Carb\obj\x86\Debug\Carb.Properties.Resources.resources
+C:\Users\uzivatel\Downloads\Carb\Carb\obj\x86\Debug\Carb.csproj.GenerateResource.Cache
+C:\Users\uzivatel\Downloads\Carb\Carb\bin\Debug\Carb.exe
+C:\Users\uzivatel\Downloads\Carb\Carb\bin\Debug\Carb.pdb
+C:\Users\uzivatel\Downloads\Carb\Carb\obj\x86\Debug\Carb.helpForm.resources
+C:\Users\uzivatel\Documents\_toGit\Csharp\Carburize\Carb\obj\x86\Debug\Carb.exe
+C:\Users\uzivatel\Documents\_toGit\Csharp\Carburize\Carb\obj\x86\Debug\Carb.pdb

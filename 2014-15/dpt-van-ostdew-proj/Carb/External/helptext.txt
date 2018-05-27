@@ -1,0 +1,48 @@
+VAN-OSTRAND DEWEY EQUATION OF CARBURIZING PROCESS
+
+---------------------------------------------------------------------------------------------------------
+
+1. The purpose of the application
+
+This application focuses on the calculation of total percentual carbon concentration under the surface of a low-carbon steel.
+A derived version of Van-Ostrand Dewey Equation is used.This version is specificaly focused on dealing with 0,2%C steel.
+
+2. Preconditions
+
+ - the mathematical model applies for gas carburizing in vaccuum furnace
+ - the temperature of a furnace can be set between 850 - 1000 *C
+ - the maximum carbon concentration on the surface is wt. 1%
+ - there are no restrictions on the time factor (except of 00:00:00)
+
+3. Restrictions
+
+ - the model does not deal with alloying elements
+ - the model works only for constant carburizing temperature
+ - the size-factor of material is not taken into consideration
+
+4. Controls, Functions
+
+By changing the values of dynamic parametres (Temperature, Time, Required Carbon Surface Concentration) using user-friendly
+interactive elements, the user can set desirable conditions for a carburizing process. After clicking on "Carburize!" button,
+the Measured Depth parameter can be changed. The final result can be seen at the right bottom corner of a window.
+
+5. Input restrictions
+
+Most of the controls which a user uses to change the parametres are already designed in the possibly most user-friendly way,
+so an unskilled user can not do any harm to the programme.
+Just in the case of measured depth values, there are some rules a user needs to follow:
+
+a) Inserted numbers need to be non-negative.
+b) Use the sign "," (comma) when inserting a decimal number.
+c) Any other signs will cause the calculation to not be proceded - your previous result will stay displayed.
+
+5. Others
+
+This application was created as a semestral project for DPT. All Rights Reserved...
+
+Created by Tomas Ondruch, 1eMAI/2 in May,2015
+
+In case of any questions, please contact the author...
+
+
+
