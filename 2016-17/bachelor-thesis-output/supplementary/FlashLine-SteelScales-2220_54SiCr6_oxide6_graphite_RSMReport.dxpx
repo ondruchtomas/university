@@ -1,0 +1,244 @@
+<!DOCTYPE DEXXMLDoc SYSTEM "DEXXMLDoc.DTD">
+<DEXXMLDoc name="FlashLine-SteelScales_oxide6_00102001_DE_Report.dxpx" creator="DX10" version="10.0.6.0">
+<designInfo studyType="ResponseSurface" studySubType="Randomized" designType="CCD" noOfRuns="13" noOfFactors="2" noOfResponses="1">
+<designNotes>This data file created by Design-Expert 10</designNotes>
+<wizardAnswerPath>Optimization  &gt;  Factorial / RSM  &gt;  No HTC  &gt;  All Numeric  &gt;  2 factors, 13 runs, goal design</wizardAnswerPath>
+</designInfo>
+<blockInfo>
+<block code="0" name="Block 1"/>
+</blockInfo>
+<factorInfo>
+<factor id="A" name="Bezrozmerna tepelna difuzivita" unit="" type="Numeric">
+<numeric format="General" low="-1" high="1" stdDev="0"/>
+</factor>
+<factor id="B" name="Bezrozmerny soucinitel tepelne vodivosti" unit="" type="Numeric">
+<numeric format="General" low="-1" high="1" stdDev="0"/>
+</factor>
+</factorInfo>
+<constraintInfo/>
+<responseInfo>
+<response id="1" name="S" unit="" type="Normal" format="General" modelBase="Polynomial" stdDevSource="ANOVA" stdDev="0.272214514925678"/>
+</responseInfo>
+<guiState>
+<designLayout>
+<visibleColumns>
+<column type="stdorder">
+<width>35</width>
+</column>
+<column type="runorder">
+<width>35</width>
+</column>
+<column id="A" type="factor">
+<width>72</width>
+</column>
+<column id="B" type="factor">
+<width>72</width>
+</column>
+<column id="1" type="response">
+<width>72</width>
+</column>
+</visibleColumns>
+</designLayout>
+<graphSettings>
+<graphArea name="GraphColumns">
+<colorBy type="runOrder"/>
+</graphArea>
+<graphArea name="Evaluation">
+<graph method="FDSGraph">
+<sigma>0.55</sigma>
+<alpha>0.05</alpha>
+<varianceScale>1</varianceScale>
+<population>0.99</population>
+<delta errorType="Mean">0.9</delta>
+</graph>
+</graphArea>
+<graphArea name="EffectsNoRestriction"/>
+<graphArea name="Diagnostics" index="0">
+<label type="normal" index="0">Pravdepodobnost dle normalniho rozdeleni</label>
+<label type="residuals" index="1">Standardizovana rezidua</label>
+<label type="predicted" index="0">Predpovezena hodnota</label>
+<label type="actual" index="0">Skutecna hodnota</label>
+<label type="cooksDistance" index="0">Cookova vzdalenost</label>
+<label type="designColumn" index="0">Index bodu</label>
+<colorBy type="response" index="0"/>
+</graphArea>
+<graphArea name="Model" index="0">
+<label type="factor" index="1">Bezrozmerna tepelna difuzivita</label>
+<label type="factor" index="2">Bezrozmerny soucinitel tepelne vodivosti</label>
+<axis type="factor" index="0">
+<low>-1.41421356266667</low>
+<high>1.41421356266667</high>
+<format>General</format>
+<ticks>5</ticks>
+</axis>
+<axis type="factor" index="1">
+<low>-1.414213565</low>
+<high>1.41421356</high>
+<format>General</format>
+<ticks>5</ticks>
+</axis>
+<contours type="response" index="0" transformed="false" mode="manual">
+<format>General</format>
+<contourLevel>0.065</contourLevel>
+<contourLevel>0.1</contourLevel>
+<contourLevel>0.2</contourLevel>
+<contourLevel>0.4</contourLevel>
+<contourLevel>0.6</contourLevel>
+<contourLevel>0.8</contourLevel>
+<contourLevel>1</contourLevel>
+</contours>
+<space>
+<codedPoint>
+<codedValue>1.41421</codedValue>
+<codedValue>0</codedValue>
+</codedPoint>
+<axis index="0">0</axis>
+<axis index="1">1</axis>
+<axis index="2">-1</axis>
+<axis index="3">-1</axis>
+</space>
+</graphArea>
+<graphArea name="GraphicalOptimization">
+<contours type="overlay" index="-1" transformed="false" mode="auto">
+<format>General</format>
+<contourLevel></contourLevel>
+<contourLevel></contourLevel>
+<contourLevel></contourLevel>
+<contourLevel></contourLevel>
+<contourLevel></contourLevel>
+<contourLevel></contourLevel>
+<contourLevel></contourLevel>
+</contours>
+<space>
+<codedPoint>
+<codedValue>0.152013</codedValue>
+<codedValue>-0.127491</codedValue>
+</codedPoint>
+<axis index="0">0</axis>
+<axis index="1">1</axis>
+<axis index="2">-1</axis>
+<axis index="3">-1</axis>
+</space>
+</graphArea>
+<graphArea name="NumericalOptimization" index="0">
+<contours type="desirability" index="-1" transformed="false" mode="auto">
+<format>General</format>
+<contourLevel>0.7</contourLevel>
+<contourLevel>0.8</contourLevel>
+<contourLevel>0.9</contourLevel>
+</contours>
+<contours type="desirability" index="0" transformed="false" mode="auto">
+<format>General</format>
+<contourLevel>0.1</contourLevel>
+<contourLevel>0.15</contourLevel>
+<contourLevel>0.2</contourLevel>
+</contours>
+<space>
+<codedPoint>
+<codedValue>0.152013</codedValue>
+<codedValue>-0.127491</codedValue>
+</codedPoint>
+<axis index="0">0</axis>
+<axis index="1">1</axis>
+<axis index="2">-1</axis>
+<axis index="3">-1</axis>
+</space>
+</graphArea>
+</graphSettings>
+</guiState>
+<designModel terms="6">
+<designTerm id="0" coef="1" term="Intercept"/>
+<designTerm id="1" coef="1" term="A"/>
+<designTerm id="2" coef="1" term="B"/>
+<designTerm id="3" coef="1" term="AB"/>
+<designTerm id="4" coef="1" term="A^2"/>
+<designTerm id="5" coef="1" term="B^2"/>
+</designModel>
+<run stdNo="11" dsnId="2" runNo="1" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">-1</facActual>
+<facActual id="B">-1</facActual>
+<resVal id="1">0.232758943476187</resVal>
+</run>
+<run stdNo="12" dsnId="4" runNo="2" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">-1</facActual>
+<facActual id="B">1</facActual>
+<resVal id="1">0.257156814878124</resVal>
+</run>
+<run stdNo="7" dsnId="3" runNo="3" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">1</facActual>
+<facActual id="B">-1</facActual>
+<resVal id="1">0.157463446300688</resVal>
+</run>
+<run stdNo="1" dsnId="5" runNo="4" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">1</facActual>
+<facActual id="B">1</facActual>
+<resVal id="1">0.163361857769909</resVal>
+</run>
+<run stdNo="5" dsnId="10" runNo="5" blockNo="0" blockName="Block 1" pointId="7" pointName="Center" buildPointId="5" buildPointName="NA" note="" rowStatus="RowHilited">
+<facActual id="A">0</facActual>
+<facActual id="B">0</facActual>
+<resVal id="1">0.0647329053167498</resVal>
+</run>
+<run stdNo="6" dsnId="10" runNo="6" blockNo="0" blockName="Block 1" pointId="7" pointName="Center" buildPointId="5" buildPointName="NA" note="" rowStatus="RowHilited">
+<facActual id="A">0</facActual>
+<facActual id="B">0</facActual>
+<resVal id="1">0.0647329053167498</resVal>
+</run>
+<run stdNo="4" dsnId="10" runNo="7" blockNo="0" blockName="Block 1" pointId="7" pointName="Center" buildPointId="5" buildPointName="NA" note="" rowStatus="RowHilited">
+<facActual id="A">0</facActual>
+<facActual id="B">0</facActual>
+<resVal id="1">0.0647329053167498</resVal>
+</run>
+<run stdNo="9" dsnId="10" runNo="8" blockNo="0" blockName="Block 1" pointId="7" pointName="Center" buildPointId="5" buildPointName="NA" note="" rowStatus="RowHilited">
+<facActual id="A">0</facActual>
+<facActual id="B">0</facActual>
+<resVal id="1">0.0647329053167498</resVal>
+</run>
+<run stdNo="2" dsnId="10" runNo="9" blockNo="0" blockName="Block 1" pointId="7" pointName="Center" buildPointId="5" buildPointName="NA" note="" rowStatus="RowHilited">
+<facActual id="A">0</facActual>
+<facActual id="B">0</facActual>
+<resVal id="1">0.0647329053167498</resVal>
+</run>
+<run stdNo="10" dsnId="10" runNo="10" blockNo="0" blockName="Block 1" pointId="10" pointName="Axial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0</facActual>
+<facActual id="B">-1.414213565</facActual>
+<resVal id="1">0.0640198541396724</resVal>
+</run>
+<run stdNo="3" dsnId="4" runNo="11" blockNo="0" blockName="Block 1" pointId="10" pointName="Axial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0</facActual>
+<facActual id="B">1.41421356</facActual>
+<resVal id="1">0.0659986633118058</resVal>
+</run>
+<run stdNo="8" dsnId="9" runNo="12" blockNo="0" blockName="Block 1" pointId="10" pointName="Axial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">-1.41421356266667</facActual>
+<facActual id="B">0</facActual>
+<resVal id="1">0.610396299462743</resVal>
+</run>
+<run stdNo="13" dsnId="10" runNo="13" blockNo="0" blockName="Block 1" pointId="10" pointName="Axial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">1.41421356266667</facActual>
+<facActual id="B">0</facActual>
+<resVal id="1">0.207788200584009</resVal>
+</run>
+<responseModel id="1">
+<transform id="5" name="Inverse">
+<arg id="1">0.15</arg>
+</transform>
+<compModel modelType="Polynomial" calcType="CodedCalc" hierarchicalActual="false" terms="6">
+<equationTerm id="0" coef="4.65694812130085" term="Intercept"/>
+<equationTerm id="1" coef="0.433471200043196" term="A"/>
+<equationTerm id="2" coef="-0.0347888210288505" term="B"/>
+<equationTerm id="3" coef="0.0238334897737109" term="AB"/>
+<equationTerm id="4" coef="-1.41970389588907" term="A^2"/>
+<equationTerm id="5" coef="-0.121686738749954" term="B^2"/>
+<equationTerm id="6" term="Curvature"/>
+</compModel>
+</responseModel>
+<optimization models="4">
+<criteria modType="Factor" id="1" goal="InRange" type="Numeric" target="0" limitLow="-1" limitHigh="1" weightLow="1" weightHigh="1" overlayLow="Missing" overlayHigh="Missing" importance="3" coding="Actual" scale="Original"/>
+<criteria modType="Factor" id="2" goal="InRange" type="Numeric" target="0" limitLow="-1" limitHigh="1" weightLow="1" weightHigh="1" overlayLow="Missing" overlayHigh="Missing" importance="3" coding="Actual" scale="Original"/>
+<criteria modType="Response" id="1" goal="Minimum" type="Numeric" target="0.06" limitLow="0.06" limitHigh="0.610396299462743" weightLow="1" weightHigh="1" overlayLow="0.06" overlayHigh="0.610396299462743" importance="3" coding="Actual" scale="Original"/>
+<criteria modType="POE" id="1" goal="None" type="Numeric" target="Missing" limitLow="Missing" limitHigh="Missing" weightLow="1" weightHigh="1" overlayLow="Missing" overlayHigh="Missing" importance="3" coding="Coded" scale="Transform"/>
+</optimization>
+<confirmationData alpha="0.05"/>
+<buildInfo CCDType="Full" alphaType="Rotatable" alpha="121" noOfFactorialReps="1" noOfAxialReplicates="1" noOfCenterPoints="5" buildTime="6"/>
+</DEXXMLDoc>
