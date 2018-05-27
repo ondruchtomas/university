@@ -1,0 +1,3 @@
+﻿  StatDistrib.cpp
+c:\users\uzivatel\source\repos\statdistrib\statdistrib\statdistrib.cpp(4): warning C4326: Návratový typ main by měl být int místo void.
+  StatDistrib.vcxproj -> C:\Users\uzivatel\source\repos\StatDistrib\Debug\StatDistrib.exe

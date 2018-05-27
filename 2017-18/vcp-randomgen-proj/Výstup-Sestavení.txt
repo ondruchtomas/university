@@ -1,0 +1,11 @@
+﻿1>------ Sestavování zahájeno: Projekt: StatDistrib, Konfigurace: Debug Win32 ------
+1>stdafx.cpp
+1>randSample.cpp
+1>distribution.cpp
+1>StatDistrib.cpp
+1>c:\users\uzivatel\source\repos\statdistrib\statdistrib\statdistrib.cpp(4): warning C4326: Návratový typ main by měl být int místo void.
+1>c:\users\uzivatel\source\repos\statdistrib\statdistrib\statdistrib.cpp(9): warning C4101: controlval: neodkazovaná lokální proměnná
+1>Generování kódu...
+1>StatDistrib.vcxproj -> C:\Users\uzivatel\source\repos\StatDistrib\Debug\StatDistrib.exe
+1>Sestavení projektu StatDistrib.vcxproj bylo dokončeno.
+========== Sestavení: 1 úspěšně, 0 se nezdařilo, 0 aktuální, 0 přeskočeno ==========
