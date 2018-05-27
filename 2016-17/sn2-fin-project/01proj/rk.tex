@@ -1,0 +1,186 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[czech]{babel}
+\begin{document}
+\section*{Samostatná práce SN2 - Explicitní Rungovy-Kuttovy metody}
+\section{RK metoda druhého řádu}
+Pro zadaný příklad určování koncentrace nečistot v jezeře byly v algoritmu použity následující vstupy: koeficient $a=1$, počet dílků dělení $N=10$, čas $t\in<0,250>$ (v hodinách), počáteční podmínka $y_0=0$.
+\subsection{Varianta pro přítok $2\frac{m^3}{hod}$}
+Příslušná diferenciální rovnice a počáteční podmínka pro vstup do algoritmu MatLabu je tvaru
+
+\begin{equation}
+f(t,y) = y'=6-0,002y,\qquad y(0)=0.
+\label{eq:rk2a}
+\end{equation}
+
+Přesné analytické řešení rovnice~(\ref{eq:rk2a}) je tvaru
+
+\begin{equation}
+y(t) = 3000(1-e^{-0,002t})
+\label{eq:rk2aSol}
+\end{equation}
+
+a pro záchranu života v jezeře pak řešíme rovnici $y(t)=1000$. Řešením je hodnota $t=202,73$, tj. na zastavení přísunu nečistot máme přibližně 8 dní a 10 hodin. Pro rovnici~(\ref{eq:rk2aSol}) vypočítal skript ve zvoleném počtu dílků dělení následující hodnoty pro přesné řešení $y_p$:\bigskip 
+
+   1.0e+03 *\par
+
+                   0\par
+   0.146250000000000\par
+   0.285370312500000\par
+   0.417708509765625\par
+   0.543595219914551\par
+   0.663344952943717\par
+   0.777256886487710\par
+   0.885615613271434\par
+   0.988691852124452\par
+   1.086743124333385\par
+   1.180014397022132\bigskip
+
+
+Algoritmus Rungovy-Kuttovy metody druhého řádu byl použit pro numerické řešení úlohy. Pro zadané vstupy vypočítal skript ve zvoleném počtu dílků dělení následující hodnoty pro numerické řešení $y$:\bigskip\bigskip\bigskip\bigskip\bigskip
+
+ 1.0e+03 *\par
+
+                   0\par
+   0.146311726497858\par
+   0.285487745892121\par
+   0.417876070724827\par
+   0.543807740766055\par
+   0.663597650785785\par
+   0.777545337954846\par
+   0.885935730843860\par
+   0.989039861893082\par
+   1.087115545134680\par
+   1.180408020862100\bigskip
+   
+   
+Chyba byla posouzena jako maximum rozdílů hodnot přesného a numerického řešení, tj. $err=max\{\left|y_p-y\right|\}$ a měla hodnotu $err=0.393623839967177$.
+
+\subsection{Varianta pro přítok $3\frac{m^3}{hod}$}
+Příslušná diferenciální rovnice a počáteční podmínka pro vstup do algoritmu MatLabu je tvaru
+
+\begin{equation}
+f(t,y) = y'=9-0,002y,\qquad y(0)=0.
+\label{eq:rk2b}
+\end{equation}
+
+Přesné analytické řešení rovnice~(\ref{eq:rk2b}) je tvaru
+
+\begin{equation}
+y(t) = 4500(1-e^{-0,002t})
+\label{eq:rk2bSol}
+\end{equation}
+
+a pro záchranu života v jezeře pak řešíme rovnici $y(t)=1000$. Řešením je hodnota $t=125,66$, tj. na zastavení přísunu nečistot máme přibližně 5 dní 5 hodin a 40 minut. Pro rovnici~(\ref{eq:rk2bSol}) vypočítal skript ve zvoleném počtu dílků dělení následující hodnoty pro přesné řešení $y_p$:\bigskip 
+
+   1.0e+03 *\par
+
+                   0\par
+   0.219467589746787\par
+   0.428231618838182\par
+   0.626814106087240\par
+   0.815711611149082\par
+   0.995396476178678\par
+   1.166318006932270\par
+   1.328903596265790\par
+   1.483559792839623\par
+   1.630673317702021\par
+   1.770612031293150\bigskip
+   
+Algoritmus Rungovy-Kuttovy metody druhého řádu byl použit pro numerické řešení úlohy. Pro zadané vstupy vypočítal skript ve zvoleném počtu dílků dělení následující hodnoty pro numerické řešení $y$:\bigskip
+
+   1.0e+03 *\par
+
+                   0\par
+   0.219375000000000\par
+   0.428055468750000\par
+   0.626562764648437\par
+   0.815392829871826\par
+   0.995017429415575\par
+   1.165885329731565\par
+   1.328423419907152\par
+   1.483037778186678\par
+   1.630114686500077\par
+   1.770021595533199\bigskip
+   
+   Chyba byla posouzena jako maximum rozdílů hodnot přesného a numerického řešení, tj. $err=max\{\left|y_p-y\right|\}$ a měla hodnotu $err=0.590435759950878$.
+   
+   \section{RK metoda třetího řádu}
+Pro zadaný příklad určování koncentrace nečistot v jezeře byly v algoritmu použity následující vstupy: koeficient $c_2=1$, koeficient $c_3=2$, počet dílků dělení $N=10$, čas $t\in<0,250>$ (v hodinách), počáteční podmínka $y_0=0$.
+\subsection{Varianta pro přítok $2\frac{m^3}{hod}$}
+Příslušná diferenciální rovnice a počáteční podmínka pro vstup do algoritmu MatLabu je tvaru~(\ref{eq:rk2a}), odpovídající přesné analytické řešení je tvaru~(\ref{eq:rk2aSol}). Na zastavení přísunu nečistot máme 8 dní a 10 hodin. Pro rovnici~(\ref{eq:rk2aSol}) vypočítal skript ve zvoleném počtu dílků dělení následující hodnoty pro přesné řešení $y_p$:\bigskip 
+
+   1.0e+03 *\par
+
+                   0\par
+   0.146311726497858\par
+   0.285487745892121\par
+   0.417876070724827\par
+   0.543807740766055\par
+   0.663597650785785\par
+   0.777545337954846\par
+   0.885935730843860\par
+   0.989039861893082\par
+   1.087115545134680\par
+   1.180408020862100\bigskip
+   
+   Algoritmus Rungovy-Kuttovy metody třetího řádu byl použit pro numerické řešení úlohy. Pro zadané vstupy vypočítal skript ve zvoleném počtu dílků dělení následující hodnoty pro numerické řešení $y$:\bigskip
+   
+   1.0e+03 *\par
+
+                   0\par
+   0.146312500000000\par
+   0.285489217447917\par
+   0.417878170405301\par
+   0.543810403802825\par
+   0.663600817234025\par
+   0.777548952376841\par
+   0.885939742011962\par
+   0.989044222510920\par
+   1.087120211575544\par
+   1.180412952923495\bigskip
+   
+   Chyba byla posouzena jako maximum rozdílů hodnot přesného a numerického řešení, tj. $err=max\{\left|y_p-y\right|\}$ a měla hodnotu $err=0.004932061395039$.
+   
+   \subsection{Varianta pro přítok $3\frac{m^3}{hod}$}
+Příslušná diferenciální rovnice a počáteční podmínka pro vstup do algoritmu MatLabu je tvaru~(\ref{eq:rk2b}), odpovídající přesné analytické řešení je tvaru~(\ref{eq:rk2bSol}). Na zastavení přísunu nečistot máme 5 dní 5 hodin a 40 minut. Pro rovnici~(\ref{eq:rk2bSol}) vypočítal skript ve zvoleném počtu dílků dělení následující hodnoty pro přesné řešení $y_p$:\bigskip 
+
+ 1.0e+03 *\par
+
+                   0\par
+   0.219467589746787\par
+   0.428231618838182\par
+   0.626814106087240\par
+   0.815711611149082\par
+   0.995396476178678\par
+   1.166318006932270\par
+   1.328903596265790\par
+   1.483559792839623\par
+   1.630673317702021\par
+   1.770612031293150\bigskip
+   
+   Algoritmus Rungovy-Kuttovy metody třetího řádu byl použit pro numerické řešení úlohy. Pro zadané vstupy vypočítal skript ve zvoleném počtu dílků dělení následující hodnoty pro numerické řešení $y$:\bigskip
+   
+   1.0e+03 *\par
+
+                   0\par
+   0.219468750000000\par
+   0.428233826171875\par
+   0.626817255607951\par
+   0.815715605704238\par
+   0.995401225851038\par
+   1.166323428565261\par
+   1.328909613017943\par
+   1.483566333766380\par
+   1.630680317363316\par
+   1.770619429385242\par
+   
+    Chyba byla posouzena jako maximum rozdílů hodnot přesného a numerického řešení, tj. $err=max\{\left|y_p-y\right|\}$ a měla hodnotu $err=0.007398092092444$.
+    
+    \subsection*{Závěr}
+    Získané výsledky odpovídají očekávání, kdy s plynoucím časem koncentrace nečistot v jezeře stoupá a otázka potřebné doby zastavení přítoku nečistot je tedy na místě. Lze si povšimnout, že vypočítaná chyba je v případě RK metody třetího řádu podstatně menší v porovnání s chybou pro RK metodu druhého řádu. Při vykreslení průběhu změny koncentrace v čase se všechny tři vykreslené křivky (pro přesné řešení, numerické řešení podle RK, řešení podle funkce ode45 v MatLabu) téměř překrývaly.\par
+Je-li to nutné, mohu protokol doplnit jak o vytvořený kód v prostředí MatLab, tak i o výsledné grafy závislostí pro jednotlivé řešené příklady; v takovém případě mě prosím kontaktujte.
+    
+\end{document}
+
+

@@ -1,0 +1,49 @@
+Alright, let's get started.
+
+Good afternoon everyone and welcome to my presentation. My name is Tom and today, you are going to learn some basic information on the topic of
+oxide scales and their role in steel industry, which is also kind of the topic of my bachelor thesis. I know, it is quite a complex topic and probably most
+of you have never heard about this issue before. You are welcome to ask any questions at the end.
+
+
+I will try to keep this talk on a basic level, so at first I will introduce you to the topic of oxide scales mentioning basic definitions and characteristics,
+secondly we will have a look at the reason why the role of oxide scales is really purely negative and finally, I'll end the presentation with highlighting the most
+efficient ways of facing this problem.
+
+When the phrase "oxidation of a metal product" is mentioned, I think the vast majority of us think about rust first, is that right? However, in this case,
+oxide scales or sometimes called mill scales or just scale layer is a thin layer of iron oxides, which form at very high temperatures above 800°C when processing
+steel. The formation is caused by the reaction of hot steel with the oxygen contained in the surrounding atmosphere. And since this can never be avoided, the
+formation of oxide scales is thus inevitable. (Describing pictures...)...Primary scale formed at the beginning of steel-production process, there are also
+so called secondary and tertiary scales, which form in the latter stages in processing of hot steel.
+
+No matter what type of oxide scales on steel we talk about, the layer always consists of the basic sections, as you can see in the picture on your right. These
+are wustite (wuastajt), magnetite and hematite. But hold on, it's not that easy. Since there are many random factors which vary in hot steel production, including
+the duration in which steel is subjected to surrounding atmosphere, the temperature of surrounding atmosphere and for example potential alloying elements contained
+in steel, these factors can extensively change the composition of an oxide layer. Mentioning those alloying elements, these can cause formation of other oxide layers
+in the interface between wustite and steel substrate, thus helping form very complex structures.
+
+
+OK, let's get more practical, right? So why do we need to bother with something like a few milimeters thin layer of oxides? Well, here is the first reason: since the
+thermal conductivity of oxide scale layer is much lower than that of steel, the heat transfer during spray cooling process in hot steel production is largely
+influenced. So if we want to optimize the parameters of spraying system to reach desired quality of produced steel, we need to have this fact in mind and we
+need to include the role ox oxide scales in research, when creating models and simulations of these processes. There has already been research conducted in this
+problem and it has been shown that the role of scales can not be neglected (unfortunately).
+
+It's quite similiar also in the process of hot rolling, that the impact of oxide scale is purely negative. In this case, due to variable mechanical and thermal
+properties of oxide scale layer, there has been an effort to optimize hot rolling process from the points of view of friction and heat transfer. It is also known
+that rough and hard structure of these layers play an important role both in deteriorated tool wear and steel surface quality.
+
+As you could see, scale layers on steel are a real struggle in this field of industry. However, if you can remember as I said, the formation of these structures is
+inevitable, so we need to find another ways how to face this problem. One of them is process of so called descaling, usually implemented in production.
+During this process, the layers are removed from the surface, most usually by using high pressure water jets which hit the oxidized steel surface and the forces
+will make sure the scales are removed. Another types of descaling include mechanical descaling, by using steel brushes which "clean" the surface or chemical descaling,
+but this one is not very eco-friendly, so it is rather replaced by hydraulic or chemical ones. There is also an effort to optimize individual processes in
+steel production to reach a goal of perfect-quality steel products and last but not least, further research should be conducted in investigation of oxide-scale
+structure properties and understanding the process of formation of these layers. It is quite a challenging task to deal with, but that is what research is about, right?
+
+Ok, that is all from me and I thank you for your attention.
+
+
+
+
+
+
